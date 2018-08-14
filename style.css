@@ -1,0 +1,53 @@
+img#profile-pic {
+  height: 400px;
+  border-radius: 50%;
+  border: 1px solid #1D2F46;
+}
+
+div#profile-pic-container {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+div#main-fold {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #141e30, #243b55);
+}
+
+div#banner {
+  background: transparent;
+}
+
+nav#main-nav a {
+  color: white;
+
+}
+
+.navbar-dark .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251,251,251,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+button.navbar-toggler {
+  border: none !important;
+}
+
+div.resume-link {
+  width: 220px;
+}
+
+div#resume-links-box div {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 650px) {
+  img#profile-pic {
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #1D2F46;
+  }
+}
